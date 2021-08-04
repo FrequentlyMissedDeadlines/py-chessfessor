@@ -1,0 +1,3 @@
+python-lichess ~= 0.10
+chess.com ~= 1.7.5
+python-dateutil ~= 2.8.2

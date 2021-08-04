@@ -1,6 +1,7 @@
 # py-chessfessor
 [![Build](https://github.com/FrequentlyMissedDeadlines/py-chessfessor/actions/workflows/python-package.yml/badge.svg)](https://github.com/FrequentlyMissedDeadlines/py-chessfessor/actions/workflows/python-package.yml)
 [![Publish](https://github.com/FrequentlyMissedDeadlines/py-chessfessor/actions/workflows/python-publish.yml/badge.svg)](https://github.com/FrequentlyMissedDeadlines/py-chessfessor/actions/workflows/python-publish.yml)
+[![Version](https://img.shields.io/pypi/v/chessfessor)](https://pypi.org/project/chessfessor)
 [![Version](https://img.shields.io/pypi/pyversions/chessfessor)](https://pypi.org/project/chessfessor)
 [![codecov](https://codecov.io/gh/FrequentlyMissedDeadlines/py-chessfessor/branch/main/graph/badge.svg)](https://codecov.io/github/FrequentlyMissedDeadlines/py-chessfessor?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
