@@ -5,6 +5,7 @@
 [![Version](https://img.shields.io/pypi/pyversions/chessfessor)](https://pypi.org/project/chessfessor)
 [![codecov](https://codecov.io/gh/FrequentlyMissedDeadlines/py-chessfessor/branch/main/graph/badge.svg)](https://codecov.io/github/FrequentlyMissedDeadlines/py-chessfessor?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/chessfessor)
 
 Chessfessor is the short for "Chess Professor". This command line tool will allow you to download all your chess game data from [Lichess](https://lichess.org/) and [Chess.com](https://www.chess.com/). You can then put this data in any BI tool you like to analyse your games or generate dashboards like winrates per opening.
 
