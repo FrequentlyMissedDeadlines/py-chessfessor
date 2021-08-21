@@ -1,2 +1,2 @@
 [run]
-omit = */test_*.py,chessfessor/chessfessor.py
+omit = */test_*.py,chessfessor/__main__.py
