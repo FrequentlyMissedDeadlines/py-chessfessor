@@ -7,7 +7,7 @@ README_MD = open(join(dirname(abspath(__file__)), "README.md")).read()
 
 setup(
     name="chessfessor",
-    version="1.0.7",
+    version="1.0.8",
     packages=find_namespace_packages(include=['chessfessor', 'chessfessor.*'], exclude=['*.tests*']),
     description="Extract your chess games data from https://lichess.org and https://chess.com",
     long_description=README_MD,
@@ -29,12 +29,6 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10"
     ],
-
-    entry_points={
-        'console_scripts': [
-            'chessfessor=chessfessor.chessfessor:main',
-        ],
-    },
     project_urls={
         'Bug Reports': 'https://github.com/FrequentlyMissedDeadlines/py-chessfessor/issues',
         'Source': 'https://github.com/FrequentlyMissedDeadlines/py-chessfessor',
