@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import argparse
-from extractors import *
+from chessfessor.extractors import *
 
 def main():
     parser = argparse.ArgumentParser(description='Extract your chess games data from https://lichess.org and https://chess.com.')

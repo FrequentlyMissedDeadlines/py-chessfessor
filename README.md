@@ -18,23 +18,23 @@ python -m pip install chessfessor
 ## Usage
 
 ```
-chessfessor Kasparov
+python -m chessfessor Kasparov
 ```
 
 ## Advanced usage
 
 ```bash
 # Display help page
-chessfessor -h
+python -m chessfessor -h
 
 # Get Lichess.org games for player Kasparov
-chessfessor Kasparov --website lichess
+python -m chessfessor Kasparov --website lichess
 
 # Get Chess.com games for player Kasparov
-chessfessor Kasparov --website chessdotcom
+python -m chessfessor Kasparov --website chessdotcom
 
 #Get Lichess.org games for player Kasparov, including casual games
-chessfessor Kasparov --website lichess --include-casual
+python -m chessfessor Kasparov --website lichess --include-casual
 ```
 
 ## Disclaimer

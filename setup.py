@@ -7,7 +7,7 @@ README_MD = open(join(dirname(abspath(__file__)), "README.md")).read()
 
 setup(
     name="chessfessor",
-    version="1.0.9",
+    version="1.0.10",
     packages=find_namespace_packages(include=['chessfessor', 'chessfessor.*'], exclude=['*.tests*']),
     description="Extract your chess games data from https://lichess.org and https://chess.com",
     long_description=README_MD,
