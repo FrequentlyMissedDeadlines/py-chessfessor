@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 from os.path import abspath, dirname, join
 
 # Fetches the content from README.md
@@ -8,12 +8,12 @@ README_MD = open(join(dirname(abspath(__file__)), "README.md")).read()
 setup(
     name="chessfessor",
     version="1.0.7",
-    packages=find_packages(where='src'),
+    packages=find_namespace_packages(include=['chessfessor', 'chessfessor.*'], exclude=['*.tests*']),
     description="Extract your chess games data from https://lichess.org and https://chess.com",
     long_description=README_MD,
     long_description_content_type="text/markdown",
     url="https://github.com/FrequentlyMissedDeadlines/py-chessfessor",
-    author_name="FrequentlyMissedDeadlines",
+    author="FrequentlyMissedDeadlines",
     author_email="FrequentlyMissedDeadlines+chessfessor@gmail.com",
 
     classifiers=[

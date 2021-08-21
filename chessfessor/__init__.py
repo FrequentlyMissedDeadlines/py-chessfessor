@@ -1,0 +1,1 @@
+from chessfessor import *
